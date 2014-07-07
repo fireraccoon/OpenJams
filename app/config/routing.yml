@@ -1,4 +1,19 @@
+open_jams_user:
+    resource: "@OpenJamsUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 brm_jams:
     resource: "@BRMJamsBundle/Resources/config/routing.yml"
     prefix:   /
 
+
+login:
+    pattern: /login
+    defaults: {_controller: OpenJams:Security:login }
+
+login_check:
+    pattern: /login_check
+
+logout:
+    pattern: /logout
+    
