@@ -1,0 +1,3 @@
+brm_jams_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BRMJamsBundle:Default:index }

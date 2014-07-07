@@ -1,0 +1,7 @@
+parameters:
+#    brm_jams.example.class: BRM\JamsBundle\Example
+
+services:
+#    brm_jams.example:
+#        class: %brm_jams.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

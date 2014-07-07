@@ -1,0 +1,4 @@
+brm_jams:
+    resource: "@BRMJamsBundle/Resources/config/routing.yml"
+    prefix:   /
+
